@@ -690,6 +690,10 @@
     [
       "df825620-032c-4492-9362-da032e4f40e2",
       "Power"
+    ],
+    [
+      "974b90e3-5658-45a3-960a-1174751bac0c",
+      "Signal Input"
     ]
   ],
   "text_variables": {}
