@@ -5364,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 102.87 118.11)
+			(xy 86.36 118.11) (xy 106.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5684,7 +5684,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 118.11) (xy 120.65 118.11)
+			(xy 111.76 118.11) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6544,16 +6544,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 93.98 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b713307-ccd3-43eb-9341-1f7182eb599a")
-	)
-	(wire
-		(pts
 			(xy 252.73 31.75) (xy 252.73 33.02)
 		)
 		(stroke
@@ -6751,16 +6741,6 @@
 			(type default)
 		)
 		(uuid "b16bdc79-e255-42af-b60f-7036c2f2fd5c")
-	)
-	(wire
-		(pts
-			(xy 93.98 120.65) (xy 86.36 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24f5459-6159-4b7f-acb0-3214203016aa")
 	)
 	(wire
 		(pts
@@ -7134,7 +7114,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 121.92) (xy 107.95 121.92)
+			(xy 120.65 120.65) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7201,16 +7181,6 @@
 			(type default)
 		)
 		(uuid "e046d262-147f-4910-b8b1-5b0f3ca00610")
-	)
-	(wire
-		(pts
-			(xy 120.65 120.65) (xy 120.65 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e047b24d-9b39-484e-8ad5-b6b7524e56fa")
 	)
 	(wire
 		(pts
@@ -7304,6 +7274,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 120.65) (xy 86.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95d454d-a663-4a8c-b86a-b64bb33abe1e")
+	)
+	(wire
+		(pts
 			(xy 31.75 176.53) (xy 22.86 176.53)
 		)
 		(stroke
@@ -7331,16 +7311,6 @@
 			(type default)
 		)
 		(uuid "ed5b5f44-8802-4a70-9182-ac190460b0ed")
-	)
-	(wire
-		(pts
-			(xy 93.98 121.92) (xy 93.98 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee5d2278-9376-4269-9dc6-5ac776854fc3")
 	)
 	(wire
 		(pts
@@ -12960,7 +12930,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 118.11 90)
+		(at 109.22 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12968,7 +12938,7 @@
 		(dnp no)
 		(uuid "a26decba-b1da-4b8e-abbb-4c29283670a1")
 		(property "Reference" "C8"
-			(at 102.87 116.84 90)
+			(at 106.68 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,7 +12946,7 @@
 			)
 		)
 		(property "Value" "100n 25V"
-			(at 111.76 116.84 90)
+			(at 115.57 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,7 +12954,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 118.11 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,7 +12963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 118.11 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +12972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 118.11 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13026,7 +12996,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 121.92 90)
+		(at 96.52 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13034,7 +13004,7 @@
 		(dnp no)
 		(uuid "a30fd7c3-dff3-46f6-b26e-4ee2f0e83da5")
 		(property "Reference" "C9"
-			(at 102.87 120.65 90)
+			(at 93.98 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,7 +13012,7 @@
 			)
 		)
 		(property "Value" "100n 25V"
-			(at 111.76 120.65 90)
+			(at 102.87 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +13020,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 121.92 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,7 +13029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 121.92 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,7 +13038,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 121.92 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
