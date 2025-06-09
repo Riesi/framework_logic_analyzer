@@ -525,11 +525,65 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3V3": [
+        "channel1",
+        "channel2",
+        "channel3",
+        "channel4"
+      ],
       "/SS_AC_TX+": [
         "90R"
       ],
       "/SS_AC_TX-": [
         "90R"
+      ],
+      "/Signal Input/CH0": [
+        "channel1"
+      ],
+      "/Signal Input/CH1": [
+        "channel1"
+      ],
+      "/Signal Input/CH10": [
+        "channel3"
+      ],
+      "/Signal Input/CH11": [
+        "channel3"
+      ],
+      "/Signal Input/CH12": [
+        "channel4"
+      ],
+      "/Signal Input/CH13": [
+        "channel4"
+      ],
+      "/Signal Input/CH14": [
+        "channel4"
+      ],
+      "/Signal Input/CH15": [
+        "channel4"
+      ],
+      "/Signal Input/CH2": [
+        "channel1"
+      ],
+      "/Signal Input/CH3": [
+        "channel1"
+      ],
+      "/Signal Input/CH4": [
+        "channel2"
+      ],
+      "/Signal Input/CH5": [
+        "channel2"
+      ],
+      "/Signal Input/CH6": [
+        "channel2"
+      ],
+      "/Signal Input/CH7": [
+        "channel2"
+      ],
+      "/Signal Input/CH8": [
+        "channel3"
+      ],
+      "/Signal Input/CH9": [
+        "channel3"
       ],
       "/USB-C/SSD+": [
         "90R"
@@ -549,11 +603,119 @@
       "/USB-C/SS_RX-": [
         "90R"
       ],
+      "/USB-C/SS_RX1+": [
+        "90R"
+      ],
+      "/USB-C/SS_RX1-": [
+        "90R"
+      ],
+      "/USB-C/SS_RX2+": [
+        "90R"
+      ],
+      "/USB-C/SS_RX2-": [
+        "90R"
+      ],
       "/USB-C/SS_TX+": [
         "90R"
       ],
       "/USB-C/SS_TX-": [
         "90R"
+      ],
+      "/USB-C/SS_TX1+": [
+        "90R"
+      ],
+      "/USB-C/SS_TX1-": [
+        "90R"
+      ],
+      "/USB-C/SS_TX2+": [
+        "90R"
+      ],
+      "/USB-C/SS_TX2-": [
+        "90R"
+      ],
+      "GND": [
+        "channel1",
+        "channel2",
+        "channel3",
+        "channel4"
+      ],
+      "IN0": [
+        "channel1"
+      ],
+      "IN1": [
+        "channel1"
+      ],
+      "IN10": [
+        "channel3"
+      ],
+      "IN11": [
+        "channel3"
+      ],
+      "IN12": [
+        "channel4"
+      ],
+      "IN13": [
+        "channel4"
+      ],
+      "IN14": [
+        "channel4"
+      ],
+      "IN15": [
+        "channel4"
+      ],
+      "IN2": [
+        "channel1"
+      ],
+      "IN3": [
+        "channel1"
+      ],
+      "IN4": [
+        "channel2"
+      ],
+      "IN5": [
+        "channel2"
+      ],
+      "IN6": [
+        "channel2"
+      ],
+      "IN7": [
+        "channel2"
+      ],
+      "IN8": [
+        "channel3"
+      ],
+      "IN9": [
+        "channel3"
+      ],
+      "VIO": [
+        "channel1",
+        "channel2",
+        "channel3",
+        "channel4"
+      ],
+      "unconnected-(IC1-NC_1-Pad6)": [
+        "channel1"
+      ],
+      "unconnected-(IC1-NC_2-Pad9)": [
+        "channel1"
+      ],
+      "unconnected-(IC2-NC_1-Pad6)": [
+        "channel2"
+      ],
+      "unconnected-(IC2-NC_2-Pad9)": [
+        "channel2"
+      ],
+      "unconnected-(IC3-NC_1-Pad6)": [
+        "channel3"
+      ],
+      "unconnected-(IC3-NC_2-Pad9)": [
+        "channel3"
+      ],
+      "unconnected-(IC4-NC_1-Pad6)": [
+        "channel4"
+      ],
+      "unconnected-(IC4-NC_2-Pad9)": [
+        "channel4"
       ]
     },
     "netclass_patterns": [

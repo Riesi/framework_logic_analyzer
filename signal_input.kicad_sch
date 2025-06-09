@@ -2553,21 +2553,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 50.8 144.78) (xy 190.5 144.78) (xy 190.5 200.66) (xy 50.8 200.66)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 0c27be8e-5844-4494-901e-acbe405729da)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 50.8 205.74) (xy 190.5 205.74) (xy 190.5 261.62) (xy 50.8 261.62)
 			)
 			(stroke
@@ -2577,22 +2562,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 688e9d16-ff94-420d-afc9-87d390b05382)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 50.8 86.36) (xy 190.5 86.36) (xy 190.5 142.24) (xy 50.8 142.24)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid ac9f2199-be5d-4494-8c3f-6f5e4da8bc8d)
+			(uuid 1c0a6f29-9a6d-4b64-b5df-46c49c0c223f)
 		)
 	)
 	(rule_area
@@ -2607,7 +2577,37 @@
 			(fill
 				(type none)
 			)
-			(uuid f66ce1e8-5194-40f9-b83e-b835b8752d93)
+			(uuid aaadf73f-3795-496a-888b-a1410fe212cc)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 50.8 86.36) (xy 190.5 86.36) (xy 190.5 142.24) (xy 50.8 142.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e57b2fb2-b040-40a8-9e25-7a501fd0a5b2)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 50.8 144.78) (xy 190.5 144.78) (xy 190.5 200.66) (xy 50.8 200.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid eea3adf0-dbd2-4613-a3bb-201eb44f934c)
 		)
 	)
 	(netclass_flag ""
@@ -2622,16 +2622,17 @@
 			(justify right bottom)
 		)
 		(uuid "6ea864d7-61c3-4240-8689-51dbd4b51864")
-		(property "Netclass" ""
-			(at -73.66 91.44 0)
+		(property "Netclass" "channel2"
+			(at 193.04 108.6104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Component Class" "channel2"
-			(at 193.04 108.6104 90)
+			(at 191.6684 108.6104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,16 +2654,17 @@
 			(justify right bottom)
 		)
 		(uuid "7ddae55c-705a-4c5a-9c88-0751cdebcabd")
-		(property "Netclass" ""
-			(at -73.66 149.86 0)
+		(property "Netclass" "channel3"
+			(at 193.04 167.0304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Component Class" "channel3"
-			(at 193.04 167.0304 90)
+			(at 191.6684 167.0304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,16 +2686,17 @@
 			(justify right bottom)
 		)
 		(uuid "8eaed7e2-e844-434a-a685-6dacb2e61504")
-		(property "Netclass" ""
-			(at -73.66 210.82 0)
+		(property "Netclass" "channel4"
+			(at 193.04 227.9904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Component Class" "channel4"
-			(at 193.04 227.9904 90)
+			(at 191.6684 227.9904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,16 +2718,17 @@
 			(justify right bottom)
 		)
 		(uuid "e701d699-e8fe-4809-8fdb-82399e5390d0")
-		(property "Netclass" ""
-			(at -73.66 38.1 0)
+		(property "Netclass" "channel1"
+			(at 193.04 55.2704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Component Class" "channel1"
-			(at 193.04 55.2704 90)
+			(at 191.6684 55.2704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
