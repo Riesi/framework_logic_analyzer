@@ -5364,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 106.68 118.11)
+			(xy 86.36 118.11) (xy 93.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5684,7 +5684,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 118.11) (xy 120.65 118.11)
+			(xy 99.06 118.11) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7522,6 +7522,16 @@
 		)
 		(uuid "64a75ade-0822-47f0-8cd3-a041a209b7f4")
 	)
+	(label "SS_AC_TX-"
+		(at 120.65 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85c6f95d-84c4-410c-a69c-0ffd3cf3ebcb")
+	)
 	(label "U3RX_VDDQ"
 		(at 137.16 66.04 90)
 		(effects
@@ -7531,6 +7541,16 @@
 			(justify left bottom)
 		)
 		(uuid "9ba1d124-d661-4e0f-8dfb-2afae025780f")
+	)
+	(label "SS_AC_TX+"
+		(at 120.65 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aec268e6-4452-40aa-be67-1278c7fed09b")
 	)
 	(label "I2C_SDA"
 		(at 234.95 40.64 0)
@@ -7696,7 +7716,7 @@
 	)
 	(global_label "IN9"
 		(shape output)
-		(at 191.77 93.98 0)
+		(at 191.77 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7706,7 +7726,7 @@
 		)
 		(uuid "4b0f361a-02b4-4928-aaad-2ab0f4a1f8aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2458 93.98 0)
+			(at 197.2458 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7804,7 @@
 	)
 	(global_label "IN11"
 		(shape output)
-		(at 191.77 88.9 0)
+		(at 191.77 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7794,7 +7814,7 @@
 		)
 		(uuid "71d28b96-c03e-4fd4-a35c-fe7a12ea49d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2458 88.9 0)
+			(at 197.2458 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7980,7 @@
 	)
 	(global_label "IN1"
 		(shape output)
-		(at 191.77 83.82 0)
+		(at 191.77 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7970,7 +7990,7 @@
 		)
 		(uuid "bd36599e-b77e-4e30-82de-9a799e77f438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2458 83.82 0)
+			(at 197.2458 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +8002,7 @@
 	)
 	(global_label "IN12"
 		(shape output)
-		(at 191.77 86.36 0)
+		(at 191.77 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7992,7 +8012,7 @@
 		)
 		(uuid "be4b2351-2dea-4a28-9ce9-eba5d02b4420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2458 86.36 0)
+			(at 197.2458 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8024,7 @@
 	)
 	(global_label "IN10"
 		(shape output)
-		(at 191.77 116.84 0)
+		(at 191.77 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8014,7 +8034,7 @@
 		)
 		(uuid "cda8b0cb-965a-479b-81d9-2b2defdffea9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2458 116.84 0)
+			(at 197.2458 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,6 +8085,68 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 120.65 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21d2b0c4-bd19-4aa8-8184-ed2090fd7294")
+		(property "Netclass" "90R"
+			(at 121.2596 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 120.65 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55f1961d-3579-46dd-8a75-e788ad787ec4")
+		(property "Netclass" "90R"
+			(at 121.2596 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -12930,7 +13012,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 109.22 118.11 90)
+		(at 96.52 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12938,7 +13020,7 @@
 		(dnp no)
 		(uuid "a26decba-b1da-4b8e-abbb-4c29283670a1")
 		(property "Reference" "C8"
-			(at 106.68 116.84 90)
+			(at 93.98 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12946,7 +13028,7 @@
 			)
 		)
 		(property "Value" "100n 25V"
-			(at 115.57 116.84 90)
+			(at 102.87 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12954,7 +13036,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 109.22 118.11 0)
+			(at 96.52 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,7 +13045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 118.11 0)
+			(at 96.52 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12972,7 +13054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 118.11 0)
+			(at 96.52 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
