@@ -5364,16 +5364,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 93.98 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bcc1d32-1cc3-4561-a6a8-036a77ca2ce4")
-	)
-	(wire
-		(pts
 			(xy 86.36 125.73) (xy 120.65 125.73)
 		)
 		(stroke
@@ -5681,16 +5671,6 @@
 			(type default)
 		)
 		(uuid "30404190-0717-4168-a131-9c048d776e49")
-	)
-	(wire
-		(pts
-			(xy 99.06 118.11) (xy 120.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304b3106-60b7-4be1-b250-d3249bf501be")
 	)
 	(wire
 		(pts
@@ -6684,6 +6664,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 120.65) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad12452f-69ef-4071-9e18-2f539c4ed8d0")
+	)
+	(wire
+		(pts
 			(xy 116.84 137.16) (xy 120.65 137.16)
 		)
 		(stroke
@@ -6701,6 +6691,16 @@
 			(type default)
 		)
 		(uuid "ae69a5a2-9c60-4606-a85c-5f3f6744fe23")
+	)
+	(wire
+		(pts
+			(xy 86.36 118.11) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8f15f4-f722-43c2-b915-ef8a30d39962")
 	)
 	(wire
 		(pts
@@ -7114,16 +7114,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 99.06 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d999f4ed-a48d-4c69-97f4-422e1b3a4ff3")
-	)
-	(wire
-		(pts
 			(xy 50.8 166.37) (xy 50.8 170.18)
 		)
 		(stroke
@@ -7271,16 +7261,6 @@
 			(type default)
 		)
 		(uuid "e7da38ec-66da-4561-a7dc-a327587662fd")
-	)
-	(wire
-		(pts
-			(xy 93.98 120.65) (xy 86.36 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95d454d-a663-4a8c-b86a-b64bb33abe1e")
 	)
 	(wire
 		(pts
@@ -7522,16 +7502,6 @@
 		)
 		(uuid "64a75ade-0822-47f0-8cd3-a041a209b7f4")
 	)
-	(label "SS_AC_TX-"
-		(at 120.65 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85c6f95d-84c4-410c-a69c-0ffd3cf3ebcb")
-	)
 	(label "U3RX_VDDQ"
 		(at 137.16 66.04 90)
 		(effects
@@ -7541,16 +7511,6 @@
 			(justify left bottom)
 		)
 		(uuid "9ba1d124-d661-4e0f-8dfb-2afae025780f")
-	)
-	(label "SS_AC_TX+"
-		(at 120.65 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aec268e6-4452-40aa-be67-1278c7fed09b")
 	)
 	(label "I2C_SDA"
 		(at 234.95 40.64 0)
@@ -12947,138 +12907,6 @@
 			(project "framework_logic_analyzer"
 				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 96.52 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a26decba-b1da-4b8e-abbb-4c29283670a1")
-		(property "Reference" "C8"
-			(at 93.98 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n 25V"
-			(at 102.87 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 96.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f353c879-3051-49ae-837a-b300b6976e1c")
-		)
-		(pin "2"
-			(uuid "ddc6f2be-a434-4bd5-b286-aba3592a1f7a")
-		)
-		(instances
-			(project "framework_logic_analyzer"
-				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 96.52 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a30fd7c3-dff3-46f6-b26e-4ee2f0e83da5")
-		(property "Reference" "C9"
-			(at 93.98 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n 25V"
-			(at 102.87 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc79f98e-d469-4f37-90af-12132b8c3802")
-		)
-		(pin "2"
-			(uuid "32fd2f43-96bb-44fc-af07-8fd77ed5d7fb")
-		)
-		(instances
-			(project "framework_logic_analyzer"
-				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c"
-					(reference "C9")
 					(unit 1)
 				)
 			)

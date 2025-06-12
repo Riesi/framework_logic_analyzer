@@ -65,6 +65,18 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|141327257|77800000|951278a9-2937-42ac-8a36-09b3c6ebfdea|c1045c3f-f8f6-48d5-b70d-9a4db32d0ebf",
+          "Not possible otherwise"
+        ],
+        [
+          "clearance|141444665|77524509|c1045c3f-f8f6-48d5-b70d-9a4db32d0ebf|c4acfb9a-0009-45c7-8f7a-b6803a660b69",
+          "Not possible otherwise"
+        ],
+        [
+          "clearance|141720157|77450000|5e86685c-70fb-4cd4-8fce-d0fb78e9c06f|8dc29a0e-b9ce-499e-aeed-51837382a38c",
+          "Not possible otherwise"
+        ],
+        [
           "courtyards_overlap|125085000|75835000|5ca327e3-43d7-4921-828b-e9440f3c4cb9|8adbf9f6-6c3b-4f7f-a360-49c288325a73",
           ""
         ],
@@ -81,7 +93,15 @@
           ""
         ],
         [
-          "footprint_type_mismatch|156150000|75350000|c72fa7ca-1b3f-4835-a43e-2076b2018b3e|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|156150000|76150000|c72fa7ca-1b3f-4835-a43e-2076b2018b3e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|151680000|63100000|faad41b9-ea29-4cd2-82b4-5e0fd3b2e05c|c51dcf30-8ad0-4242-8319-8e6e689fc6b6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|160620000|63100000|faad41b9-ea29-4cd2-82b4-5e0fd3b2e05c|6ee57770-522b-4d50-969e-e3fed1036f6b",
           ""
         ]
       ],
@@ -537,6 +557,12 @@
         "diff_pair_width": 0.1582,
         "name": "90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "channel",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
@@ -547,10 +573,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "+1V8": [
-        "channel1",
-        "channel2",
-        "channel3",
-        "channel4"
+        "channel"
       ],
       "+3V3": [
         "channel1",
@@ -565,52 +588,52 @@
         "90R"
       ],
       "/Signal Input/CH0": [
-        "channel1"
+        "channel"
       ],
       "/Signal Input/CH1": [
-        "channel1"
+        "channel"
       ],
       "/Signal Input/CH10": [
-        "channel3"
+        "channel"
       ],
       "/Signal Input/CH11": [
-        "channel3"
+        "channel"
       ],
       "/Signal Input/CH12": [
-        "channel4"
+        "channel"
       ],
       "/Signal Input/CH13": [
-        "channel4"
+        "channel"
       ],
       "/Signal Input/CH14": [
-        "channel4"
+        "channel"
       ],
       "/Signal Input/CH15": [
-        "channel4"
+        "channel"
       ],
       "/Signal Input/CH2": [
-        "channel1"
+        "channel"
       ],
       "/Signal Input/CH3": [
-        "channel1"
+        "channel"
       ],
       "/Signal Input/CH4": [
-        "channel2"
+        "channel"
       ],
       "/Signal Input/CH5": [
-        "channel2"
+        "channel"
       ],
       "/Signal Input/CH6": [
-        "channel2"
+        "channel"
       ],
       "/Signal Input/CH7": [
-        "channel2"
+        "channel"
       ],
       "/Signal Input/CH8": [
-        "channel3"
+        "channel"
       ],
       "/Signal Input/CH9": [
-        "channel3"
+        "channel"
       ],
       "/USB-C/SSD+": [
         "90R"
@@ -622,6 +645,30 @@
         "90R"
       ],
       "/USB-C/SS_D-": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_RX+": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_RX-": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_TX+": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_TX-": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_TX1+": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_TX1-": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_TX2+": [
+        "90R"
+      ],
+      "/USB-C/SS_REDRIVE_TX2-": [
         "90R"
       ],
       "/USB-C/SS_RX+": [
@@ -661,88 +708,82 @@
         "90R"
       ],
       "GND": [
-        "channel1",
-        "channel2",
-        "channel3",
-        "channel4"
+        "channel"
       ],
       "IN0": [
-        "channel1"
+        "channel"
       ],
       "IN1": [
-        "channel1"
+        "channel"
       ],
       "IN10": [
-        "channel3"
+        "channel"
       ],
       "IN11": [
-        "channel3"
+        "channel"
       ],
       "IN12": [
-        "channel4"
+        "channel"
       ],
       "IN13": [
-        "channel4"
+        "channel"
       ],
       "IN14": [
-        "channel4"
+        "channel"
       ],
       "IN15": [
-        "channel4"
+        "channel"
       ],
       "IN2": [
-        "channel1"
+        "channel"
       ],
       "IN3": [
-        "channel1"
+        "channel"
       ],
       "IN4": [
-        "channel2"
+        "channel"
       ],
       "IN5": [
-        "channel2"
+        "channel"
       ],
       "IN6": [
-        "channel2"
+        "channel"
       ],
       "IN7": [
-        "channel2"
+        "channel"
       ],
       "IN8": [
-        "channel3"
+        "channel"
       ],
       "IN9": [
-        "channel3"
+        "channel"
       ],
       "VIO": [
-        "channel1",
-        "channel2",
-        "channel3",
-        "channel4"
+        "channel"
       ],
       "unconnected-(IC1-NC_1-Pad6)": [
-        "channel1"
+        "channel"
       ],
       "unconnected-(IC1-NC_2-Pad9)": [
-        "channel1"
+        "channel"
       ],
       "unconnected-(IC2-NC_1-Pad6)": [
-        "channel2"
+        "channel"
       ],
       "unconnected-(IC2-NC_2-Pad9)": [
-        "channel2"
+        "channel"
       ],
       "unconnected-(IC3-NC_1-Pad6)": [
-        "channel3"
+        "channel"
       ],
       "unconnected-(IC3-NC_2-Pad9)": [
-        "channel3"
+        "channel"
       ],
       "unconnected-(IC4-NC_1-Pad6)": [
-        "channel4"
+        "channel"
       ],
       "unconnected-(IC4-NC_2-Pad9)": [
-        "channel4"
+        "channel"
       ]
     },
     "netclass_patterns": [

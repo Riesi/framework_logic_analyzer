@@ -2553,21 +2553,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 50.8 205.74) (xy 190.5 205.74) (xy 190.5 261.62) (xy 50.8 261.62)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 58f3e99a-2e60-47cc-bda2-69675f8c5b87)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 50.8 86.36) (xy 190.5 86.36) (xy 190.5 142.24) (xy 50.8 142.24)
 			)
 			(stroke
@@ -2577,13 +2562,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 7364b886-13e9-4ebf-a70a-3a81c3e3e5cc)
+			(uuid 0686389a-d94d-460c-bacd-9771f63f19cd)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 50.8 144.78) (xy 190.5 144.78) (xy 190.5 200.66) (xy 50.8 200.66)
+				(xy 50.8 205.74) (xy 190.5 205.74) (xy 190.5 261.62) (xy 50.8 261.62)
 			)
 			(stroke
 				(width 0)
@@ -2592,7 +2577,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 86f58bac-0981-4596-a9e9-83ebf07ed300)
+			(uuid 1bb9c870-e430-40f5-a1a1-c6365d113062)
 		)
 	)
 	(rule_area
@@ -2607,7 +2592,22 @@
 			(fill
 				(type none)
 			)
-			(uuid d2ad783d-3378-4e0c-8e0d-3ca7fb3b972b)
+			(uuid 551ec377-a42e-478d-a0a1-bedc3cfc84d9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 50.8 144.78) (xy 190.5 144.78) (xy 190.5 200.66) (xy 50.8 200.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ef37a5a6-c221-4da0-b266-38d90e8c0b46)
 		)
 	)
 	(netclass_flag ""
@@ -2622,7 +2622,7 @@
 			(justify right bottom)
 		)
 		(uuid "6ea864d7-61c3-4240-8689-51dbd4b51864")
-		(property "Netclass" "channel2"
+		(property "Netclass" "channel"
 			(at 193.04 108.6104 90)
 			(effects
 				(font
@@ -2654,7 +2654,7 @@
 			(justify right bottom)
 		)
 		(uuid "7ddae55c-705a-4c5a-9c88-0751cdebcabd")
-		(property "Netclass" "channel3"
+		(property "Netclass" "channel"
 			(at 193.04 167.0304 90)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 			(justify right bottom)
 		)
 		(uuid "8eaed7e2-e844-434a-a685-6dacb2e61504")
-		(property "Netclass" "channel4"
+		(property "Netclass" "channel"
 			(at 193.04 227.9904 90)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 			(justify right bottom)
 		)
 		(uuid "e701d699-e8fe-4809-8fdb-82399e5390d0")
-		(property "Netclass" "channel1"
+		(property "Netclass" "channel"
 			(at 193.04 55.2704 90)
 			(effects
 				(font
