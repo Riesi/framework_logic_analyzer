@@ -63,7 +63,28 @@
           "width": 0.129
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|125085000|75835000|5ca327e3-43d7-4921-828b-e9440f3c4cb9|8adbf9f6-6c3b-4f7f-a360-49c288325a73",
+          ""
+        ],
+        [
+          "courtyards_overlap|125085000|79235000|5a19c1dd-41d7-4fa9-8941-ac5850bdbd2c|c9839054-891f-475a-8bfb-577e17f9e856",
+          ""
+        ],
+        [
+          "courtyards_overlap|125085000|82635000|00fd7707-7ca9-42a7-957f-bbe10dc2475a|1baba086-c54b-4afe-985c-c20078985e1b",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|156150000|64952500|1e6913e1-9086-4532-ad14-04c73822fbe6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|156150000|75350000|c72fa7ca-1b3f-4835-a43e-2076b2018b3e|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -135,7 +156,7 @@
         "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.149,
-        "min_hole_to_hole": 0.254,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -525,6 +546,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+1V8": [
+        "channel1",
+        "channel2",
+        "channel3",
+        "channel4"
+      ],
       "+3V3": [
         "channel1",
         "channel2",

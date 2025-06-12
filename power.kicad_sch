@@ -309,184 +309,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP2112K-3.3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AP2112K-3.3"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23?5*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP2112K-3.3_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP2112K-3.3_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SC189:SC189CSKTRT"
 			(pin_names
 				(offset 0.254)
@@ -672,6 +494,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:XC9285B18CMR-G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XC9285B18CMR-G"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SOT95P280X130-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.torexsemi.com/system/files/series/XC9285.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "HiSAT-COT Control, 1A Synchronous Step-Down DC/DC Converters"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Torex"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XC9285B18CMR-G"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XC9285B18CMR-G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "Lx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V2"
 			(power)
 			(pin_numbers
@@ -797,7 +825,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -818,7 +846,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+1V8"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -844,7 +872,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -862,7 +890,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+1V8_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -900,7 +928,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+1V8_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1018,107 +1046,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1250,7 +1177,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5V to 3.3V 600mA"
+	(text "5V to 1.8V 1A"
 		(exclude_from_sim no)
 		(at 58.42 30.48 0)
 		(effects
@@ -1279,7 +1206,7 @@
 		(uuid "0531fd11-740a-4020-a7db-a566d7a2397c")
 	)
 	(junction
-		(at 66.04 44.45)
+		(at 39.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d230243-1dd2-49ab-918d-783e66fadc74")
@@ -1297,7 +1224,7 @@
 		(uuid "3703e7e7-1145-40d0-9043-c089f4af8613")
 	)
 	(junction
-		(at 58.42 44.45)
+		(at 31.75 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dbae95a-4f8b-4e76-9ea4-fceda2d74b8a")
@@ -1309,16 +1236,16 @@
 		(uuid "4bbdefb4-e2d5-4380-a818-069f3a080865")
 	)
 	(junction
+		(at 90.17 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69409902-eb06-4d84-81f4-f84ddec5c130")
+	)
+	(junction
 		(at 63.5 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ac565b-8e10-4503-a390-ea4920701870")
-	)
-	(junction
-		(at 87.63 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2999772-ce58-40ae-b7ee-afa084a4eced")
 	)
 	(junction
 		(at 92.71 57.15)
@@ -1332,15 +1259,9 @@
 		(color 0 0 0 0)
 		(uuid "dc91ed9f-b1b9-4108-b998-4275d8733f1d")
 	)
-	(junction
-		(at 76.2 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4db5ed3-bb22-4cbf-a919-fb8b30b1b456")
-	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 58.42 44.45)
+			(xy 31.75 48.26) (xy 31.75 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1271,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 44.45) (xy 68.58 44.45)
+			(xy 87.63 46.99) (xy 90.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a92a285-16b0-4722-9fc4-229d0d9257bb")
+	)
+	(wire
+		(pts
+			(xy 39.37 44.45) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1291,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 58.42 44.45)
+			(xy 31.75 38.1) (xy 31.75 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1400,6 +1331,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 46.99) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4119e58b-e181-424f-95b7-89272873aa18")
+	)
+	(wire
+		(pts
 			(xy 63.5 95.25) (xy 63.5 99.06)
 		)
 		(stroke
@@ -1407,6 +1348,16 @@
 			(type default)
 		)
 		(uuid "50f1569c-8975-4d08-b649-9d8c2a80435f")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54601ace-8a1c-4e1d-820c-4ddafae74895")
 	)
 	(wire
 		(pts
@@ -1427,16 +1378,6 @@
 			(type default)
 		)
 		(uuid "5ad5974f-40b0-4b0d-9555-f5beaeefc6b6")
-	)
-	(wire
-		(pts
-			(xy 68.58 46.99) (xy 66.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e8782ed-3905-4b52-a999-36f872c0fbde")
 	)
 	(wire
 		(pts
@@ -1470,17 +1411,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 57.15) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "692e70e9-2319-4633-8401-d87e7d90d0e8")
-	)
-	(wire
-		(pts
-			(xy 58.42 44.45) (xy 66.04 44.45)
+			(xy 31.75 44.45) (xy 39.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 53.34) (xy 58.42 57.15)
+			(xy 31.75 53.34) (xy 31.75 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1510,13 +1441,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 87.63 57.15)
+			(xy 31.75 57.15) (xy 92.71 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80ba8c26-f896-4641-bba0-c9d13958f90b")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8a1ac8-0d50-429a-8574-b97c992667f3")
 	)
 	(wire
 		(pts
@@ -1530,6 +1471,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 49.53) (xy 39.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcd8e20-0128-4c35-8e88-6fc122307cd6")
+	)
+	(wire
+		(pts
+			(xy 82.55 46.99) (xy 78.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec7ffc3-94cf-47eb-afe1-471966e613f7")
+	)
+	(wire
+		(pts
 			(xy 93.98 95.25) (xy 105.41 95.25)
 		)
 		(stroke
@@ -1537,16 +1498,6 @@
 			(type default)
 		)
 		(uuid "b2db114d-ebfa-4841-8db4-f4382ea55771")
-	)
-	(wire
-		(pts
-			(xy 83.82 44.45) (xy 92.71 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9bf9e3d-286a-49bd-a126-e82daea4b888")
 	)
 	(wire
 		(pts
@@ -1560,17 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 54.61) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdad36d3-7470-42be-a2b2-24cb2a67d99b")
-	)
-	(wire
-		(pts
-			(xy 66.04 46.99) (xy 66.04 44.45)
+			(xy 39.37 44.45) (xy 39.37 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1597,16 +1538,6 @@
 			(type default)
 		)
 		(uuid "dc4c1a07-7c69-469c-a301-6493fec56284")
-	)
-	(wire
-		(pts
-			(xy 87.63 57.15) (xy 92.71 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0c30da-8bfd-41c8-9ec6-5edf5ba0cd83")
 	)
 	(wire
 		(pts
@@ -1640,7 +1571,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 50.8 0)
+		(at 31.75 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1648,7 +1579,7 @@
 		(dnp no)
 		(uuid "0752713d-c595-475b-926b-2e2451988a5f")
 		(property "Reference" "C4"
-			(at 60.7568 49.6316 0)
+			(at 34.0868 49.6316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1588,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 60.7568 51.943 0)
+			(at 34.0868 51.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1597,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 58.42 50.8 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 50.8 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 50.8 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1645,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 58.42 38.1 0)
+		(at 31.75 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1722,7 +1653,7 @@
 		(dnp no)
 		(uuid "2c504bdc-1df4-4685-b5df-bfae2ef14321")
 		(property "Reference" "#PWR012"
-			(at 58.42 41.91 0)
+			(at 31.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1662,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 58.801 33.7058 0)
+			(at 32.131 33.7058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 38.1 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 38.1 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 38.1 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,87 +1708,6 @@
 			(project "Microcontroller"
 				(path "/fff17096-2243-44cc-8e16-f85582cd0560"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 76.2 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a1e1927-c7ea-4ae5-aefa-58cb8de0404b")
-		(property "Reference" "U3"
-			(at 76.2 38.3032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2112K-3.3"
-			(at 76.2 40.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 76.2 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65aef178-8896-430a-b278-ae1e152092f3")
-		)
-		(pin "2"
-			(uuid "9bbb2364-1cf5-4c29-b05b-73417696de57")
-		)
-		(pin "3"
-			(uuid "53fb3e4c-3770-468f-91c3-8afd15fdc03c")
-		)
-		(pin "4"
-			(uuid "220060a2-6e20-4616-bc11-08c4dc794bba")
-		)
-		(pin "5"
-			(uuid "c96146fe-b870-42da-b943-01cd1e5da144")
-		)
-		(instances
-			(project "framework_logic_analyzer"
-				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c/df825620-032c-4492-9362-da032e4f40e2"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller"
-				(path "/fff17096-2243-44cc-8e16-f85582cd0560"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2000,6 +1850,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "891770c4-0a52-41bf-bfde-65f0cdb8eef2")
+		(property "Reference" "#PWR07"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.4058 47.117 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3739aa9-8c10-4a9a-8540-2b5f83cf73e8")
+		)
+		(instances
+			(project "framework_logic_analyzer"
+				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c/df825620-032c-4492-9362-da032e4f40e2"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 92.71 49.53 0)
 		(unit 1)
@@ -2068,6 +1982,135 @@
 			(project "Microcontroller"
 				(path "/fff17096-2243-44cc-8e16-f85582cd0560"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:XC9285B18CMR-G")
+		(at 50.8 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a66a0767-3b58-4e7b-87e8-4b464a3010a8")
+		(property "Reference" "IC6"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC9285B18CMR-G"
+			(at 64.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOT95P280X130-5N"
+			(at 74.93 139.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.torexsemi.com/system/files/series/XC9285.pdf"
+			(at 74.93 239.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HiSAT-COT Control, 1A Synchronous Step-Down DC/DC Converters"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at 74.93 439.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 74.93 539.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 74.93 639.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Torex"
+			(at 74.93 739.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XC9285B18CMR-G"
+			(at 74.93 839.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eba5585e-56c7-48cb-b48d-eabd934a741d")
+		)
+		(pin "5"
+			(uuid "ba5177c0-a570-4761-84e8-6f0e879ab842")
+		)
+		(pin "4"
+			(uuid "253da816-6517-4499-af2b-81122556f695")
+		)
+		(pin "3"
+			(uuid "5a71985c-9f0b-4e6b-bf7b-30dc9e801554")
+		)
+		(pin "2"
+			(uuid "9ccfc96f-e1d5-472a-8e00-35cf82597b04")
+		)
+		(instances
+			(project ""
+				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c/df825620-032c-4492-9362-da032e4f40e2"
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -2144,17 +2187,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 92.71 38.1 0)
+		(lib_id "Device:L_Small")
+		(at 85.09 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b73325d1-eda6-4dbe-971f-2e4d2ce4e1da")
-		(property "Reference" "#PWR046"
-			(at 92.71 41.91 0)
+		(uuid "c9f7f630-3a99-4934-946a-b3809dd39136")
+		(property "Reference" "L2"
+			(at 85.344 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 85.344 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,16 +2220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 92.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 38.1 0)
+		(property "Datasheet" "~"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,17 +2229,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 38.1 0)
+		(property "Description" ""
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 92.71 38.1 0)
+		(property "LCSC" "C315721"
+			(at 85.09 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,12 +2247,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0d19e2e-e7f7-447b-95ae-fd0dbb298d75")
+			(uuid "a794c6c5-f5d1-4cc3-9c97-4f8e568bced1")
+		)
+		(pin "2"
+			(uuid "850a2cdc-962e-4553-a5ed-dbecaf65c8ec")
 		)
 		(instances
-			(project ""
+			(project "framework_logic_analyzer"
 				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c/df825620-032c-4492-9362-da032e4f40e2"
-					(reference "#PWR046")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2437,6 +2489,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 92.71 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de24120c-1b39-41d7-a30f-c33560cd4c7a")
+		(property "Reference" "#PWR8"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 92.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca9aa0b-7c6b-4805-baa1-55984f0500f1")
+		)
+		(instances
+			(project "framework_logic_analyzer"
+				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c/df825620-032c-4492-9362-da032e4f40e2"
+					(reference "#PWR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 109.22 0)
 		(unit 1)
@@ -2571,76 +2689,6 @@
 			(project "Microcontroller"
 				(path "/fff17096-2243-44cc-8e16-f85582cd0560"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 87.63 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1b57df8-2b53-4f00-8516-b768340027b4")
-		(property "Reference" "#FLG02"
-			(at 87.63 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 87.63 52.7558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48e16fc2-be12-48ff-af6b-cad567ec7c2a")
-		)
-		(instances
-			(project "framework_logic_analyzer"
-				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c/df825620-032c-4492-9362-da032e4f40e2"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller"
-				(path "/fff17096-2243-44cc-8e16-f85582cd0560"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
