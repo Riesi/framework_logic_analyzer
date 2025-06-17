@@ -35,6 +35,7 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
+		(49 "User.6" user)
 	)
 	(setup
 		(stackup
@@ -411,6 +412,17 @@
 			(uuid "7ffd9666-7f13-4be3-abd8-92fd3aff7389")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/test.step"
+			(offset
+				(xyz 22.4 -2 -7.3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(locked yes)
@@ -512,19 +524,6 @@
 			(uuid "fad577ba-b8a8-4570-887a-2718ff8ab17d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ExpansionCard_SelfTapping.step"
-			(hide yes)
-			(opacity 0.1000)
-			(offset
-				(xyz -11.2 -10.5 -4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
@@ -7037,6 +7036,134 @@
 			)
 		)
 	)
+	(footprint "Cutout_Pinheader_02x08_254"
+		(layer "F.Cu")
+		(uuid "43c42df3-693b-4291-8165-26deca524c25")
+		(at 129.9 106.6)
+		(descr "Cutout for horizontal 2.54mm 20.32x5.08 pinheader")
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "141e1412-d85c-438c-a016-532077a21783")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d84e11c6-dffa-42a1-adb7-ec3b09c418db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "890dca35-a59a-4e10-8473-920dcfeb7539")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a1bf94d-a69b-45c3-88f4-fa4e8218471f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eJw1jEEKgzAQRfeeYpaGhja6LV15ge5FJCZDE9AIyQwuind3FHyrD+/xl9XzjNAxrUzjN6aA1mMeC0+FsnVUb9FT0BAw/gIp+FcgiEpltoR1bzSYW7/ah3k2g7qaE8eTJI0E143Y9m7PPWhwmAjzhzKjelf7AaVcLVg="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e9a2820-1ea9-4c1f-9367-4fc5cdf74fc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_Pinheader_substract(width=20.32, height=5.08)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aefb7ce9-982d-409e-ad22-8fad728472b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b479266-a630-4128-8771-9a5f672553c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseHeight" "5.08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "884404f8-6f71-4c5f-98f4-502bb031bee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -10 0)
+			(end 10 0)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "User.6")
+			(uuid "ddcf0eac-a78b-4821-8e15-557016db5b44")
+		)
+		(fp_rect
+			(start -5 -10.16)
+			(end 5 10.16)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill no)
+			(layer "User.6")
+			(uuid "91e9f534-9c6a-4cd3-9b42-9839cbdf3a84")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4846ef5b-11cc-4ab6-9c91-7ffd7ca231ca")
@@ -7838,6 +7965,134 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Cutout_Pinheader_02x08_254"
+		(layer "F.Cu")
+		(uuid "50653745-e707-4e81-b9e3-618553fd17a2")
+		(at 116.9 106.6)
+		(descr "Cutout for horizontal 2.54mm 20.32x5.08 pinheader")
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "0902a4fc-b982-48b1-b1fa-0666642a989e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fed48486-d97b-451a-b00f-8127c43eca3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c16a729-7013-48f6-9ccc-46679be5a88e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb817ea-a3f0-4187-904f-28afc59d9d00")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eJw1jEEKgzAQRfeeYpaGhja6LV15ge5FJCZDE9AIyQwuind3FHyrD+/xl9XzjNAxrUzjN6aA1mMeC0+FsnVUb9FT0BAw/gIp+FcgiEpltoR1bzSYW7/ah3k2g7qaE8eTJI0E143Y9m7PPWhwmAjzhzKjelf7AaVcLVg="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2bebd1fa-9895-4895-a126-9f338e572f9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_Pinheader_substract(width=20.32, height=5.08)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "52a96511-1fa4-4936-8301-7c3383c5e918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b701a45b-719b-48ee-b8a3-3144706d64ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseHeight" "5.08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8a8a3d0b-bc53-4e8c-9cf2-b1702d8d44f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -10 0)
+			(end 10 0)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "User.6")
+			(uuid "57c48ff4-942a-4b15-b838-05cf29c6e1f7")
+		)
+		(fp_rect
+			(start -5 -10.16)
+			(end 5 10.16)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill no)
+			(layer "User.6")
+			(uuid "4ea89b1d-3053-4478-b50b-7aea57b37535")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -9182,6 +9437,134 @@
 			(pinfunction "LX")
 			(pintype "passive")
 			(uuid "b45d87eb-f116-4615-992e-b6b019ce29ed")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Cutout_Pinheader_02x08_254"
+		(layer "F.Cu")
+		(uuid "64c04de0-0f71-4d62-a6c0-9c64b59c30d7")
+		(at 142.9 106.6)
+		(descr "Cutout for horizontal 2.54mm 20.32x5.08 pinheader")
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "9fa4362a-b589-4917-96d8-ee0ce86af766")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f7be815e-8646-45ba-8d0a-739437edae77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dcd4455-3d1b-4c8d-a9eb-48ea27518be1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edd22d54-6034-47cb-9349-bc04f1b5170c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eJw1jEEKgzAQRfeeYpaGhja6LV15ge5FJCZDE9AIyQwuind3FHyrD+/xl9XzjNAxrUzjN6aA1mMeC0+FsnVUb9FT0BAw/gIp+FcgiEpltoR1bzSYW7/ah3k2g7qaE8eTJI0E143Y9m7PPWhwmAjzhzKjelf7AaVcLVg="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84d44c38-a60b-431c-89b5-9d88f907eca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_Pinheader_substract(width=20.32, height=5.08)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b6d7dfd5-ebe6-4a65-8cd2-2a6b46b99929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aae9ef5c-ee1a-4f5c-89e6-734161e46bae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseHeight" "5.08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "221ce515-6f88-48ab-a90f-6b9a2fb6551f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -10 0)
+			(end 10 0)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "User.6")
+			(uuid "7576b48e-b13d-4c2b-b3ed-70f231cba7a5")
+		)
+		(fp_rect
+			(start -5 -10.16)
+			(end 5 10.16)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill no)
+			(layer "User.6")
+			(uuid "6e6868d1-a1f1-419c-a35b-f4accebbeff5")
 		)
 		(embedded_fonts no)
 	)
@@ -12365,6 +12748,134 @@
 				(xyz -0 -0 -0)
 			)
 		)
+	)
+	(footprint "Cutout_TypeC"
+		(layer "F.Cu")
+		(uuid "8d66b21d-def2-442c-b4b0-2c27fe5a45cb")
+		(at 156.15 62.6)
+		(descr "Hole to fit the plug of a Type-C connector")
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "ba2fb27e-3d39-4589-b35c-5c9d00ec90bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4b6c3a5a-912a-4c5c-811a-4040bec62a7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db342298-d4ac-4ed1-a428-938f9df2d0e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ce90ff6-5603-4013-b1a9-47b866432900")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eJy9UcsKwjAQvPcrcmwhsbHiQaSn/oI3KaWPpS3URNINUqT/bkz6EsSjQw7ZYTIzbG6y0h2QRKPUmF2GOyRZr4seVV6iH5CnRwwebYUNicmen+3cgag/iAbaukFDHHZHxxgD0Xc5gn9lTh5GlHA6ScMoDaxOSbQiTk+c8ol8Q4tWiqXBjI2t8WK+bRZGhC2+gUnZ2Mwoh64VFSjflVl7rLfg/CPqf0nmzAv75q4LI3NG1H0Mmyf3LKWkBIGgYlQaNlGjN74ABcWHKg=="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "94aa4548-ee21-4f9a-8640-b48732d9b4b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_TypeC_substract()"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80cdad82-7e17-459d-8efe-c5d2beaa80dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0e021f86-0848-4190-afa1-07b828f7317c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseHeight" "3.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "73cf1185-5132-4b3e-98a3-36c0e7782a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -10 0)
+			(end 10 0)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "User.6")
+			(uuid "b6396167-d706-4e84-8ce2-c5e816e65ef7")
+		)
+		(fp_rect
+			(start -5 -5)
+			(end 5 5)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill no)
+			(layer "User.6")
+			(uuid "72f2434d-dd5a-4dbe-b4c2-a796a2d10b1f")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -17352,7 +17863,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 156 "unconnected-(U7-CNFG_A1-Pad1)")
 			(pinfunction "CNFG_A1")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "041c2afc-20d3-4a50-92df-e98a581e913c")
 		)
 		(pad "2" smd rect
@@ -17379,7 +17890,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 157 "unconnected-(U7-CNFG_B1-Pad4)")
 			(pinfunction "CNFG_B1")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "06d501d8-a93f-466e-9895-3b8088eda390")
 		)
 		(pad "5" smd rect
@@ -17433,7 +17944,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 159 "unconnected-(U7-CNFG_B2-Pad10)")
 			(pinfunction "CNFG_B2")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "96948721-a6f1-499e-9d80-0f768fdac742")
 		)
 		(pad "11" smd rect
@@ -17460,7 +17971,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 158 "unconnected-(U7-CNFG_A2-Pad13)")
 			(pinfunction "CNFG_A2")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "574b8238-484a-4bc9-a197-c0dde14e2865")
 		)
 		(pad "14" smd rect
@@ -18143,6 +18654,134 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Cutout_Pinheader_02x08_254"
+		(layer "F.Cu")
+		(uuid "da2383b5-ad88-432d-9fe0-1250c1c5568f")
+		(at 155.9 106.6)
+		(descr "Cutout for horizontal 2.54mm 20.32x5.08 pinheader")
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "1a950038-2f9b-41c2-af72-9c72dd680bb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5fbd5773-aa3e-4979-8e6e-99530e2f5d1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a8338d9-0cd1-4ea3-b676-f9ebae8522c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeb348f6-c062-47cb-802e-27a79bfb4186")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eJw1jEEKgzAQRfeeYpaGhja6LV15ge5FJCZDE9AIyQwuind3FHyrD+/xl9XzjNAxrUzjN6aA1mMeC0+FsnVUb9FT0BAw/gIp+FcgiEpltoR1bzSYW7/ah3k2g7qaE8eTJI0E143Y9m7PPWhwmAjzhzKjelf7AaVcLVg="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "048e5222-af46-4ffc-8c45-67201463c7ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_Pinheader_substract(width=20.32, height=5.08)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ffb5ea46-2a99-4248-a177-edbead6bcb8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cfbf7d94-023f-4e79-828d-cd2ffbf36bf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseHeight" "5.08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "89e9a1c1-44df-44f4-be5d-9f5d0449808d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -10 0)
+			(end 10 0)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "User.6")
+			(uuid "30aca840-379f-446a-9dcc-e7ab238dbfd7")
+		)
+		(fp_rect
+			(start -5 -10.16)
+			(end 5 10.16)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill no)
+			(layer "User.6")
+			(uuid "88e25ab4-595e-4d46-8956-8c39b8f7dda6")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -31777,6 +32416,90 @@
 		(layer "Edge.Cuts")
 		(uuid "faad41b9-ea29-4cd2-82b4-5e0fd3b2e05c")
 	)
+	(gr_line
+		(start 108.9 104.1)
+		(end 108.9 65.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "01b2d0b4-709c-4426-877e-9d4484b40d7e")
+	)
+	(gr_arc
+		(start 111.4 106.6)
+		(mid 109.632233 105.867767)
+		(end 108.9 104.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "41ff066c-a74f-4660-8ca5-675d3c90780d")
+	)
+	(gr_line
+		(start 111.4 62.6)
+		(end 161.4 62.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "4f69473d-5e89-4e13-9a53-6a20c42a0b81")
+	)
+	(gr_arc
+		(start 108.9 65.1)
+		(mid 109.632233 63.332233)
+		(end 111.4 62.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "79e50f85-edc2-4653-b8c4-26a1829b5c4c")
+	)
+	(gr_arc
+		(start 161.4 62.6)
+		(mid 163.167767 63.332233)
+		(end 163.9 65.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "8283a653-d1fe-4cb3-a6ea-c902ce0f7261")
+	)
+	(gr_line
+		(start 111.4 106.6)
+		(end 161.4 106.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "dc7a0344-f89c-4dab-9245-0aa0c6952b68")
+	)
+	(gr_line
+		(start 163.9 104.1)
+		(end 163.9 65.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "e62e18ed-c440-4871-a44b-6fb97b863204")
+	)
+	(gr_arc
+		(start 163.9 104.1)
+		(mid 163.167767 105.867767)
+		(end 161.4 106.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.6")
+		(uuid "ff13297b-85b8-4838-9e06-bd4d4e69a828")
+	)
 	(gr_text "RST DI DO CK MS"
 		(at 115.6768 71.7692 0)
 		(layer "F.SilkS")
@@ -31879,7 +32602,7 @@
 		(pts
 			(xy 109.4 103.6) (xy 163.4 103.6)
 		)
-		(height 13)
+		(height 14)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -31892,14 +32615,14 @@
 		(style
 			(thickness 0.05)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "54 mm"
-			(at 136.4 115.45 0)
+			(at 136.4 117.85 0)
 			(layer "Cmts.User")
 			(uuid "20ddb1aa-34cd-416d-9d97-26b999f2d153")
 			(effects
@@ -31917,7 +32640,7 @@
 		(pts
 			(xy 142.9 104.6) (xy 155.9 104.6)
 		)
-		(height 9.8)
+		(height 11.25)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -31930,14 +32653,14 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "13 mm"
-			(at 149.4 113.25 0)
+			(at 151.4 115.85 0)
 			(layer "Cmts.User")
 			(uuid "2b111e90-2fee-4461-9aef-e544d50ad556")
 			(effects
@@ -31955,7 +32678,7 @@
 		(pts
 			(xy 129.9 104.6) (xy 142.9 104.6)
 		)
-		(height 9.8)
+		(height 11.25)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -31968,14 +32691,14 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "13 mm"
-			(at 136.4 113.25 0)
+			(at 138.4 115.85 0)
 			(layer "Cmts.User")
 			(uuid "5d29c784-0031-41b9-b4ed-4e06ac92e78b")
 			(effects
@@ -32031,7 +32754,7 @@
 		(pts
 			(xy 116.9 104.6) (xy 129.9 104.6)
 		)
-		(height 9.8)
+		(height 11.25)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -32044,14 +32767,14 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "13 mm"
-			(at 123.4 113.25 0)
+			(at 125.15 115.6 0)
 			(layer "Cmts.User")
 			(uuid "8e91f56a-e6d0-4c8e-bee4-fea0811ec775")
 			(effects
