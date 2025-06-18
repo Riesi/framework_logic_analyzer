@@ -552,18 +552,34 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.25,
+        "name": "50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1565
+      },
+      {
+        "clearance": 0.1,
+        "name": "60R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1026
+      },
+      {
         "clearance": 0.2,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1582,
         "name": "90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "channel",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -711,51 +727,115 @@
         "channel"
       ],
       "IN0": [
+        "60R",
         "channel"
       ],
       "IN1": [
+        "60R",
         "channel"
       ],
       "IN10": [
+        "60R",
         "channel"
       ],
       "IN11": [
+        "60R",
         "channel"
       ],
       "IN12": [
+        "60R",
         "channel"
       ],
       "IN13": [
+        "60R",
         "channel"
       ],
       "IN14": [
+        "60R",
         "channel"
       ],
       "IN15": [
+        "60R",
         "channel"
       ],
       "IN2": [
+        "60R",
         "channel"
       ],
       "IN3": [
+        "60R",
         "channel"
       ],
       "IN4": [
+        "60R",
         "channel"
       ],
       "IN5": [
+        "60R",
         "channel"
       ],
       "IN6": [
+        "60R",
         "channel"
       ],
       "IN7": [
+        "60R",
         "channel"
       ],
       "IN8": [
+        "60R",
         "channel"
       ],
       "IN9": [
+        "60R",
+        "channel"
+      ],
+      "Net-(IC1-B1Y)": [
+        "channel"
+      ],
+      "Net-(IC1-B2Y)": [
+        "channel"
+      ],
+      "Net-(IC1-B3Y)": [
+        "channel"
+      ],
+      "Net-(IC1-B4Y)": [
+        "channel"
+      ],
+      "Net-(IC2-B1Y)": [
+        "channel"
+      ],
+      "Net-(IC2-B2Y)": [
+        "channel"
+      ],
+      "Net-(IC2-B3Y)": [
+        "channel"
+      ],
+      "Net-(IC2-B4Y)": [
+        "channel"
+      ],
+      "Net-(IC3-B1Y)": [
+        "channel"
+      ],
+      "Net-(IC3-B2Y)": [
+        "channel"
+      ],
+      "Net-(IC3-B3Y)": [
+        "channel"
+      ],
+      "Net-(IC3-B4Y)": [
+        "channel"
+      ],
+      "Net-(IC4-B1Y)": [
+        "channel"
+      ],
+      "Net-(IC4-B2Y)": [
+        "channel"
+      ],
+      "Net-(IC4-B3Y)": [
+        "channel"
+      ],
+      "Net-(IC4-B4Y)": [
         "channel"
       ],
       "VIO": [
