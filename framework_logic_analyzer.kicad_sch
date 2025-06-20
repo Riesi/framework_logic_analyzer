@@ -9878,6 +9878,68 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 364.49 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36921837-4256-4442-9fdf-79c836b5773a")
+		(property "Reference" "H3"
+			(at 367.03 236.3216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 367.03 238.633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 364.49 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "framework_logic_analyzer"
+				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 142.24 26.67 180)
 		(unit 1)
@@ -10329,8 +10391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 26.67 0)
+		(property "Description" "600Ohm @ 100Mhz"
+			(at 115.062 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13533,6 +13595,68 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 364.49 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf0567e6-fc98-486a-a2db-27d20b59025d")
+		(property "Reference" "H4"
+			(at 367.03 242.6716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 367.03 244.983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 364.49 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "framework_logic_analyzer"
+				(path "/cec59c69-8f0d-4d06-8fee-6cd1bb72d09c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 245.11 207.01 90)
 		(unit 1)
@@ -14339,7 +14463,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 372.11 233.68 0)
+		(at 364.49 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14347,7 +14471,7 @@
 		(dnp no)
 		(uuid "d50fd2ef-0b6f-4a6d-8eab-1cebee791e5b")
 		(property "Reference" "H1"
-			(at 374.65 232.5116 0)
+			(at 367.03 224.8916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14356,7 +14480,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 374.65 234.823 0)
+			(at 367.03 227.203 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14365,7 +14489,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 372.11 233.68 0)
+			(at 364.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,7 +14498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 233.68 0)
+			(at 364.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14383,7 +14507,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 233.68 0)
+			(at 364.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14531,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 372.11 240.03 0)
+		(at 364.49 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14415,7 +14539,7 @@
 		(dnp no)
 		(uuid "da927cb2-f4d7-4e92-a324-5ee7e4fb26b3")
 		(property "Reference" "H2"
-			(at 374.65 238.8616 0)
+			(at 367.03 231.2416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14548,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 374.65 241.173 0)
+			(at 367.03 233.553 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14433,7 +14557,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 372.11 240.03 0)
+			(at 364.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14442,7 +14566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 240.03 0)
+			(at 364.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,7 +14575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 240.03 0)
+			(at 364.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
