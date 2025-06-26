@@ -6814,7 +6814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 118.11 173.99 0)
 			(effects
 				(font
@@ -7148,7 +7148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 118.11 158.75 0)
 			(effects
 				(font
@@ -7846,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 15.24 161.29 0)
 			(effects
 				(font
@@ -8275,7 +8275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 15.24 171.45 0)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 15.24 173.99 0)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 118.11 171.45 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 15.24 163.83 0)
 			(effects
 				(font
@@ -9920,7 +9920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "logic_analyzer:C_0201_0603Metric_USB"
 			(at 118.11 156.21 0)
 			(effects
 				(font
